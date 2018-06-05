@@ -24,13 +24,29 @@ escolha = gets.to_i
 
 case escolha
 when 1
-	calc.soma
+	puts "Digite o primeiro número:"
+	a = gets.to_i
+	puts "Digite o segundo número:"
+	b = gets.to_i
+	calc.soma(a,b)
 when 2
-	calc.subtracao
+	puts "Digite o primeiro número:"
+	a = gets.to_i
+	puts "Digite o segundo número:"
+	b = gets.to_i
+	calc.subtracao(a,b)
 when 3
-	calc.multiplicacao
+	puts "Digite o primeiro número:"
+	a = gets.to_i
+	puts "Digite o segundo número:"
+	b = gets.to_i
+	calc.multiplicacao(a,b)
 when 4
-	calc.divisao
+	puts "Digite o primeiro número:"
+	a = gets.to_i
+	puts "Digite o segundo número:"
+	b = gets.to_i
+	calc.divisao(a,b)
 else
 	puts "Opção inválida"
 end
